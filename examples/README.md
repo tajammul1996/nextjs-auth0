@@ -101,7 +101,7 @@ For preview deployments you will either want to assign this to:
 
 See here for more information about Vercel's Automatic Urls: https://vercel.com/docs/concepts/deployments/automatic-urls
 
-To do this, make sure **Automatically expose System Environment Variables** is checked in **Settings > Environment Variables** and assign either the Automatic Deployment URL (`VERCEL_URL`) or the Automatic Branch URL (`VERCEL_BRANCH_URL`) to `NEXT_PUBLIC_AUTH0_BASE_URL` in your `.env.production` file. For example:
+To do this, make sure **Automatically expose System Environment Variables** is checked in **Settings > Environment Variables** and assign Automatic Deployment URL (`VERCEL_URL`) to `NEXT_PUBLIC_AUTH0_BASE_URL` in your `.env.production` file. For example:
 
 ```shell
 # .env.production
